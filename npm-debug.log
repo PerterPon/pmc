@@ -1,0 +1,246 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   '--disturl=http://dist.u.qiniudn.com',
+1 verbose cli   '--userconfig=/Users/Pon/.tnpmrc',
+1 verbose cli   '--cache=/Users/Pon/.npm/.cache/tnpm',
+1 verbose cli   '--registry=http://registry.npm.taobao.net',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'tnpm' ]
+2 info using npm@1.3.11
+3 info using node@v0.10.21
+4 verbose cache add [ 'tnpm', null ]
+5 verbose cache add name=undefined spec="tnpm" args=["tnpm",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'tnpm',
+6 verbose parsed url   path: 'tnpm',
+6 verbose parsed url   href: 'tnpm' }
+7 silly lockFile c914047e-tnpm tnpm
+8 verbose lock tnpm /Users/Pon/.npm/.cache/tnpm/c914047e-tnpm.lock
+9 silly lockFile c914047e-tnpm tnpm
+10 silly lockFile c914047e-tnpm tnpm
+11 verbose addNamed [ 'tnpm', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile fe900314-tnpm tnpm@
+14 verbose lock tnpm@ /Users/Pon/.npm/.cache/tnpm/fe900314-tnpm.lock
+15 silly addNameRange { name: 'tnpm', range: '*', hasData: false }
+16 verbose url raw tnpm
+17 verbose url resolving [ 'http://registry.npm.taobao.net/', './tnpm' ]
+18 verbose url resolved http://registry.npm.taobao.net/tnpm
+19 info trying registry request attempt 1 at 23:50:57
+20 http GET http://registry.npm.taobao.net/tnpm
+21 http 200 http://registry.npm.taobao.net/tnpm
+22 silly registry.get cb [ 200,
+22 silly registry.get   { server: 'Tengine',
+22 silly registry.get     date: 'Tue, 03 Jun 2014 15:50:57 GMT',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     connection: 'close',
+22 silly registry.get     'x-powered-by': 'koa',
+22 silly registry.get     etag: '"1401254275000"',
+22 silly registry.get     'x-readtime': '28',
+22 silly registry.get     'content-length': '42478' } ]
+23 silly addNameRange number 2 { name: 'tnpm', range: '*', hasData: true }
+24 silly addNameRange versions [ 'tnpm',
+24 silly addNameRange   [ '0.3.10',
+24 silly addNameRange     '0.3.9',
+24 silly addNameRange     '0.3.8',
+24 silly addNameRange     '0.3.7',
+24 silly addNameRange     '0.3.6',
+24 silly addNameRange     '0.3.5',
+24 silly addNameRange     '0.3.4',
+24 silly addNameRange     '0.3.3',
+24 silly addNameRange     '0.3.2',
+24 silly addNameRange     '0.3.1',
+24 silly addNameRange     '0.3.0',
+24 silly addNameRange     '0.2.4',
+24 silly addNameRange     '0.2.3',
+24 silly addNameRange     '0.2.2',
+24 silly addNameRange     '0.2.1',
+24 silly addNameRange     '0.2.0',
+24 silly addNameRange     '0.1.9',
+24 silly addNameRange     '0.1.8',
+24 silly addNameRange     '0.1.5',
+24 silly addNameRange     '0.1.4',
+24 silly addNameRange     '0.1.3',
+24 silly addNameRange     '0.1.2',
+24 silly addNameRange     '0.1.1',
+24 silly addNameRange     '0.1.0',
+24 silly addNameRange     '0.0.4',
+24 silly addNameRange     '0.0.3',
+24 silly addNameRange     '0.0.2',
+24 silly addNameRange     '0.0.1' ] ]
+25 verbose addNamed [ 'tnpm', '0.3.10' ]
+26 verbose addNamed [ '0.3.10', '0.3.10' ]
+27 silly lockFile da247270-tnpm-0-3-10 tnpm@0.3.10
+28 verbose lock tnpm@0.3.10 /Users/Pon/.npm/.cache/tnpm/da247270-tnpm-0-3-10.lock
+29 silly lockFile 6be0cc95-et-tnpm-download-tnpm-0-3-10-tgz http://registry.npm.taobao.net/tnpm/download/tnpm-0.3.10.tgz
+30 verbose lock http://registry.npm.taobao.net/tnpm/download/tnpm-0.3.10.tgz /Users/Pon/.npm/.cache/tnpm/6be0cc95-et-tnpm-download-tnpm-0-3-10-tgz.lock
+31 verbose addRemoteTarball [ 'http://registry.npm.taobao.net/tnpm/download/tnpm-0.3.10.tgz',
+31 verbose addRemoteTarball   '8ff8aca8bcc54060be6fe6ae79bb36b9382746f9' ]
+32 info retry fetch attempt 1 at 23:50:57
+33 verbose fetch to= /var/folders/v7/m92tjdvx30b9sg5ch7vphswh0000gn/T/npm-8637-W5oW4oEl/1401810657327-0.3676495987456292/tmp.tgz
+34 http GET http://registry.npm.taobao.net/tnpm/download/tnpm-0.3.10.tgz
+35 http 200 http://registry.npm.taobao.net/tnpm/download/tnpm-0.3.10.tgz
+36 verbose tar unpack /var/folders/v7/m92tjdvx30b9sg5ch7vphswh0000gn/T/npm-8637-W5oW4oEl/1401810657327-0.3676495987456292/tmp.tgz
+37 silly lockFile e840705b-57327-0-3676495987456292-package tar:///var/folders/v7/m92tjdvx30b9sg5ch7vphswh0000gn/T/npm-8637-W5oW4oEl/1401810657327-0.3676495987456292/package
+38 verbose lock tar:///var/folders/v7/m92tjdvx30b9sg5ch7vphswh0000gn/T/npm-8637-W5oW4oEl/1401810657327-0.3676495987456292/package /Users/Pon/.npm/.cache/tnpm/e840705b-57327-0-3676495987456292-package.lock
+39 silly lockFile 2489ac29-57327-0-3676495987456292-tmp-tgz tar:///var/folders/v7/m92tjdvx30b9sg5ch7vphswh0000gn/T/npm-8637-W5oW4oEl/1401810657327-0.3676495987456292/tmp.tgz
+40 verbose lock tar:///var/folders/v7/m92tjdvx30b9sg5ch7vphswh0000gn/T/npm-8637-W5oW4oEl/1401810657327-0.3676495987456292/tmp.tgz /Users/Pon/.npm/.cache/tnpm/2489ac29-57327-0-3676495987456292-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry .npmignore
+44 silly gunzTarPerm extractEntry README.md
+45 silly gunzTarPerm extractEntry origin_npm.js
+46 silly gunzTarPerm extractEntry config.js
+47 silly gunzTarPerm extractEntry utils.js
+48 silly gunzTarPerm extractEntry AUTHORS
+49 silly gunzTarPerm extractEntry LICENSE.txt
+50 silly gunzTarPerm extractEntry History.md
+51 silly gunzTarPerm extractEntry bin/tnpm
+52 silly gunzTarPerm extractEntry bin/tnpm-auth
+53 silly gunzTarPerm extractEntry bin/tnpm-author
+54 silly gunzTarPerm extractEntry bin/tnpm-check
+55 silly gunzTarPerm extractEntry bin/tnpm-doc
+56 silly gunzTarPerm extractEntry bin/tnpm-notify
+57 silly gunzTarPerm extractEntry bin/tnpm-publish
+58 silly gunzTarPerm extractEntry bin/tnpm-sync
+59 silly gunzTarPerm extractEntry bin/tnpm-web
+60 silly lockFile e840705b-57327-0-3676495987456292-package tar:///var/folders/v7/m92tjdvx30b9sg5ch7vphswh0000gn/T/npm-8637-W5oW4oEl/1401810657327-0.3676495987456292/package
+61 silly lockFile e840705b-57327-0-3676495987456292-package tar:///var/folders/v7/m92tjdvx30b9sg5ch7vphswh0000gn/T/npm-8637-W5oW4oEl/1401810657327-0.3676495987456292/package
+62 silly lockFile 2489ac29-57327-0-3676495987456292-tmp-tgz tar:///var/folders/v7/m92tjdvx30b9sg5ch7vphswh0000gn/T/npm-8637-W5oW4oEl/1401810657327-0.3676495987456292/tmp.tgz
+63 silly lockFile 2489ac29-57327-0-3676495987456292-tmp-tgz tar:///var/folders/v7/m92tjdvx30b9sg5ch7vphswh0000gn/T/npm-8637-W5oW4oEl/1401810657327-0.3676495987456292/tmp.tgz
+64 verbose tar pack [ '/Users/Pon/.npm/.cache/tnpm/tnpm/0.3.10/package.tgz',
+64 verbose tar pack   '/var/folders/v7/m92tjdvx30b9sg5ch7vphswh0000gn/T/npm-8637-W5oW4oEl/1401810657327-0.3676495987456292/package' ]
+65 verbose tarball /Users/Pon/.npm/.cache/tnpm/tnpm/0.3.10/package.tgz
+66 verbose folder /var/folders/v7/m92tjdvx30b9sg5ch7vphswh0000gn/T/npm-8637-W5oW4oEl/1401810657327-0.3676495987456292/package
+67 silly lockFile e840705b-57327-0-3676495987456292-package tar:///var/folders/v7/m92tjdvx30b9sg5ch7vphswh0000gn/T/npm-8637-W5oW4oEl/1401810657327-0.3676495987456292/package
+68 verbose lock tar:///var/folders/v7/m92tjdvx30b9sg5ch7vphswh0000gn/T/npm-8637-W5oW4oEl/1401810657327-0.3676495987456292/package /Users/Pon/.npm/.cache/tnpm/e840705b-57327-0-3676495987456292-package.lock
+69 silly lockFile e3153681-che-tnpm-tnpm-0-3-10-package-tgz tar:///Users/Pon/.npm/.cache/tnpm/tnpm/0.3.10/package.tgz
+70 verbose lock tar:///Users/Pon/.npm/.cache/tnpm/tnpm/0.3.10/package.tgz /Users/Pon/.npm/.cache/tnpm/e3153681-che-tnpm-tnpm-0-3-10-package-tgz.lock
+71 silly lockFile e840705b-57327-0-3676495987456292-package tar:///var/folders/v7/m92tjdvx30b9sg5ch7vphswh0000gn/T/npm-8637-W5oW4oEl/1401810657327-0.3676495987456292/package
+72 silly lockFile e840705b-57327-0-3676495987456292-package tar:///var/folders/v7/m92tjdvx30b9sg5ch7vphswh0000gn/T/npm-8637-W5oW4oEl/1401810657327-0.3676495987456292/package
+73 silly lockFile e3153681-che-tnpm-tnpm-0-3-10-package-tgz tar:///Users/Pon/.npm/.cache/tnpm/tnpm/0.3.10/package.tgz
+74 silly lockFile e3153681-che-tnpm-tnpm-0-3-10-package-tgz tar:///Users/Pon/.npm/.cache/tnpm/tnpm/0.3.10/package.tgz
+75 silly lockFile 8aa96b5d-m-cache-tnpm-tnpm-0-3-10-package /Users/Pon/.npm/.cache/tnpm/tnpm/0.3.10/package
+76 verbose lock /Users/Pon/.npm/.cache/tnpm/tnpm/0.3.10/package /Users/Pon/.npm/.cache/tnpm/8aa96b5d-m-cache-tnpm-tnpm-0-3-10-package.lock
+77 silly lockFile 8aa96b5d-m-cache-tnpm-tnpm-0-3-10-package /Users/Pon/.npm/.cache/tnpm/tnpm/0.3.10/package
+78 silly lockFile 8aa96b5d-m-cache-tnpm-tnpm-0-3-10-package /Users/Pon/.npm/.cache/tnpm/tnpm/0.3.10/package
+79 verbose tar unpack /Users/Pon/.npm/.cache/tnpm/tnpm/0.3.10/package.tgz
+80 silly lockFile 0169c71a-m-cache-tnpm-tnpm-0-3-10-package tar:///Users/Pon/.npm/.cache/tnpm/tnpm/0.3.10/package
+81 verbose lock tar:///Users/Pon/.npm/.cache/tnpm/tnpm/0.3.10/package /Users/Pon/.npm/.cache/tnpm/0169c71a-m-cache-tnpm-tnpm-0-3-10-package.lock
+82 silly lockFile e3153681-che-tnpm-tnpm-0-3-10-package-tgz tar:///Users/Pon/.npm/.cache/tnpm/tnpm/0.3.10/package.tgz
+83 verbose lock tar:///Users/Pon/.npm/.cache/tnpm/tnpm/0.3.10/package.tgz /Users/Pon/.npm/.cache/tnpm/e3153681-che-tnpm-tnpm-0-3-10-package-tgz.lock
+84 silly gunzTarPerm modes [ '755', '644' ]
+85 silly gunzTarPerm extractEntry package.json
+86 silly gunzTarPerm extractEntry .npmignore
+87 silly gunzTarPerm extractEntry README.md
+88 silly gunzTarPerm extractEntry config.js
+89 silly gunzTarPerm extractEntry origin_npm.js
+90 silly gunzTarPerm extractEntry utils.js
+91 silly gunzTarPerm extractEntry AUTHORS
+92 silly gunzTarPerm extractEntry History.md
+93 silly gunzTarPerm extractEntry LICENSE.txt
+94 silly gunzTarPerm extractEntry bin/tnpm
+95 silly gunzTarPerm extractEntry bin/tnpm-auth
+96 silly gunzTarPerm extractEntry bin/tnpm-author
+97 silly gunzTarPerm extractEntry bin/tnpm-check
+98 silly gunzTarPerm extractEntry bin/tnpm-doc
+99 silly gunzTarPerm extractEntry bin/tnpm-notify
+100 silly gunzTarPerm extractEntry bin/tnpm-publish
+101 silly gunzTarPerm extractEntry bin/tnpm-sync
+102 silly gunzTarPerm extractEntry bin/tnpm-web
+103 silly lockFile 0169c71a-m-cache-tnpm-tnpm-0-3-10-package tar:///Users/Pon/.npm/.cache/tnpm/tnpm/0.3.10/package
+104 silly lockFile 0169c71a-m-cache-tnpm-tnpm-0-3-10-package tar:///Users/Pon/.npm/.cache/tnpm/tnpm/0.3.10/package
+105 silly lockFile e3153681-che-tnpm-tnpm-0-3-10-package-tgz tar:///Users/Pon/.npm/.cache/tnpm/tnpm/0.3.10/package.tgz
+106 silly lockFile e3153681-che-tnpm-tnpm-0-3-10-package-tgz tar:///Users/Pon/.npm/.cache/tnpm/tnpm/0.3.10/package.tgz
+107 verbose chmod /Users/Pon/.npm/.cache/tnpm/tnpm/0.3.10/package.tgz 644
+108 verbose chown /Users/Pon/.npm/.cache/tnpm/tnpm/0.3.10/package.tgz [ 501, 20 ]
+109 silly lockFile 6be0cc95-et-tnpm-download-tnpm-0-3-10-tgz http://registry.npm.taobao.net/tnpm/download/tnpm-0.3.10.tgz
+110 silly lockFile 6be0cc95-et-tnpm-download-tnpm-0-3-10-tgz http://registry.npm.taobao.net/tnpm/download/tnpm-0.3.10.tgz
+111 silly lockFile da247270-tnpm-0-3-10 tnpm@0.3.10
+112 silly lockFile da247270-tnpm-0-3-10 tnpm@0.3.10
+113 silly lockFile fe900314-tnpm tnpm@
+114 silly lockFile fe900314-tnpm tnpm@
+115 silly resolved [ { name: 'tnpm',
+115 silly resolved     version: '0.3.10',
+115 silly resolved     description: 'npm client for alibaba private npm registry',
+115 silly resolved     bin:
+115 silly resolved      { tnpm: './bin/tnpm',
+115 silly resolved        'tnpm-check': './bin/tnpm-check',
+115 silly resolved        'tnpm-doc': './bin/tnpm-doc',
+115 silly resolved        'tnpm-auth': './bin/tnpm-auth',
+115 silly resolved        'tnpm-author': './bin/tnpm-author',
+115 silly resolved        'tnpm-notify': './bin/tnpm-notify',
+115 silly resolved        'tnpm-publish': './bin/tnpm-publish',
+115 silly resolved        'tnpm-web': './bin/tnpm-web',
+115 silly resolved        'tnpm-sync': './bin/tnpm-sync' },
+115 silly resolved     preferGlobal: true,
+115 silly resolved     dependencies:
+115 silly resolved      { 'auto-correct': '1.0.0',
+115 silly resolved        bagpipe: '0.3.5',
+115 silly resolved        colors: '0.6.2',
+115 silly resolved        commander: '2.2.0',
+115 silly resolved        debug: '0.8.0',
+115 silly resolved        inquirer: '0.4.1',
+115 silly resolved        'npm-request': '0.0.4',
+115 silly resolved        open: '0.0.5',
+115 silly resolved        urllib: '0.5.14',
+115 silly resolved        utility: '0.1.12' },
+115 silly resolved     devDependencies: { autod: '*', contributors: '*' },
+115 silly resolved     homepage: 'https://github.com/fengmk2/tnpm',
+115 silly resolved     repository: { type: 'git', url: 'git://github.com/fengmk2/tnpm.git' },
+115 silly resolved     keywords: [ 'tnpm', 'npm', 'alibaba', 'taobao', 'local-npm', 'cnpm', 'ali' ],
+115 silly resolved     author: { name: 'fengmk2', email: 'fengmk2@gmail.com' },
+115 silly resolved     license: 'MIT',
+115 silly resolved     contributors: [ [Object], [Object], [Object] ],
+115 silly resolved     readme: 'tnpm [![Dependency Status](https://gemnasium.com/fengmk2/tnpm.png)](https://gemnasium.com/fengmk2/tnpm)\n=======\n\n[![NPM](https://nodei.co/npm/tnpm.png?downloads=true&stars=true)](https://nodei.co/npm/tnpm/)\n\nnpm client for [http://npm.alibaba-inc.com](http://npm.alibaba-inc.com).\n\n## Install\n\n```bash\n$ npm install tnpm -g\n```\n\n## Usage\n\n```bash\n# Open tnpm website\n$ tnpm web\n\n# Check current dependencies version\n$ tnpm check\n\n# Just like using `npm`\n$ tnpm info urllib\n\n# Sync modules form `registry.npmjs.org`\n$ tnpm sync connect mocha\n$ tnpm sync #this will try to parse the package.json file, and sync package.name\n\n# User Auth with `npm-web`\n$ tnpm auth\n\n# Publish private module\n$ tnpm publish [pkg]\n\n# Sync public module from npmjs.org\n$ tnpm sync connect\n\n# Send notify email\n$ tnpm notify [pkg] \'release 0.1.0, fixed some bug.\'\n\n# Open module document page\n$ tnpm doc hsf\n\n# Add package author\n$ tnpm author add <username> [pkg]\n\n# Remove package author\n$ tnpm author rm <username> [pkg]\n```\n\n## Authors\n\n```bash\n$ git summary\n\n project  : tnpm\n repo age : 1 year, 2 months\n active   : 23 days\n commits  : 55\n files    : 17\n authors  :\n    37  fengmk2                 67.3%\n    13  dead-horse              23.6%\n     3  不四                  5.5%\n     1  Alsotang                1.8%\n     1  dead_horse              1.8%\n```\n\n## License\n\n(The MIT License)\n\nCopyright (c) 2012 - 2014 fengmk2 &lt;fengmk2@gmail.com&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+115 silly resolved     readmeFilename: 'README.md',
+115 silly resolved     bugs: { url: 'https://github.com/fengmk2/tnpm/issues' },
+115 silly resolved     _id: 'tnpm@0.3.10',
+115 silly resolved     dist: { shasum: '7385d0c12aa96a181abcad1a4b194d019ce53a03' },
+115 silly resolved     _from: 'tnpm@',
+115 silly resolved     _resolved: 'http://registry.npm.taobao.net/tnpm/download/tnpm-0.3.10.tgz' } ]
+116 info install tnpm@0.3.10 into /usr/local/lib
+117 info installOne tnpm@0.3.10
+118 info /usr/local/lib/node_modules/tnpm unbuild
+119 info preuninstall tnpm@0.3.9
+120 info uninstall tnpm@0.3.9
+121 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild tnpm@0.3.9
+122 verbose /usr/local/bin,[object Object] binRoot
+123 info postuninstall tnpm@0.3.9
+124 info /usr/local/lib/node_modules/tnpm unbuild
+125 info preuninstall tnpm@0.3.9
+126 info uninstall tnpm@0.3.9
+127 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild tnpm@0.3.9
+128 verbose /usr/local/bin,[object Object] binRoot
+129 info postuninstall tnpm@0.3.9
+130 error error rolling back Error: EACCES, unlink '/usr/local/lib/node_modules/tnpm'
+130 error error rolling back  tnpm@0.3.10 { [Error: EACCES, unlink '/usr/local/lib/node_modules/tnpm']
+130 error error rolling back   errno: 3,
+130 error error rolling back   code: 'EACCES',
+130 error error rolling back   path: '/usr/local/lib/node_modules/tnpm' }
+131 error Error: EACCES, unlink '/usr/local/lib/node_modules/tnpm'
+131 error  { [Error: EACCES, unlink '/usr/local/lib/node_modules/tnpm']
+131 error   errno: 3,
+131 error   code: 'EACCES',
+131 error   path: '/usr/local/lib/node_modules/tnpm' }
+132 error Please try running this command again as root/Administrator.
+133 error System Darwin 13.2.0
+134 error command "/usr/local/bin/node" "/usr/local/bin/npm" "--disturl=http://dist.u.qiniudn.com" "--userconfig=/Users/Pon/.tnpmrc" "--cache=/Users/Pon/.npm/.cache/tnpm" "--registry=http://registry.npm.taobao.net" "install" "-g" "tnpm"
+135 error cwd /Users/Pon/Documents/Project/pmc
+136 error node -v v0.10.21
+137 error npm -v 1.3.11
+138 error path /usr/local/lib/node_modules/tnpm
+139 error code EACCES
+140 error errno 3
+141 error stack Error: EACCES, unlink '/usr/local/lib/node_modules/tnpm'
+142 verbose exit [ 3, true ]

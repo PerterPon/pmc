@@ -1,0 +1,13 @@
+
+port : 8000
+
+static_path : './res'
+
+database :
+  url  : 'mongodb://127.0.0.1'
+  port : '27017'
+  collection : 'pmc'
+
+log :
+  access_log_path   : './logs/access'
+  biz_log_path : './logs/biz'

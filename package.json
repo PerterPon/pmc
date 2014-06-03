@@ -1,0 +1,32 @@
+{
+  "name": "pmc",
+  "main": "",
+  "version": "0.0.1",
+  "dependencies": {
+    "mongodb" : "*",
+    "options-stream" : "*",
+    "event-pipe" : "*",
+    "request" : "*",
+    "coffee-script": "*",
+    "express" : "3",
+    "jade" : "*",
+    "justlog" : "*",
+    "ifile" : "*"
+  },
+  "devDependencies": {
+    "istanbul"  : "*",
+    "hc-common-page" : "*",
+    "mocha": "*",
+    "jsdom": "*",
+    "jquery": "1.8.3",
+    "xmlhttprequest": "*",
+    "expect.js" : "*",
+    "jscover": "*"
+  },
+  "engines": [
+    "node >=0.8.14"
+  ],
+  "scripts": {
+    "test": "make test"
+  }
+}

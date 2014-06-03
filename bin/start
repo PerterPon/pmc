@@ -1,0 +1,27 @@
+#!/usr/bin/env coffee
+
+"use strict"
+
+os     = require 'options-stream'
+path   = require 'path'
+config = os {}, path.join __dirname, '../etc/config.yaml'
+Index  = require '../lib/aio-server'
+
+app    = new Index config
+
+app.run()
+
+quit = ->
+
+  return if quit.flag
+  quit.flag = true
+
+  console.log "Master Server Quit."
+  process.exit();
+
+process.on 'SIGINT',  quit
+process.on 'SIGQUIT', quit
+process.on 'exit',    quit
+
+process.on 'uncaughtException', ( err )->
+  quit()
